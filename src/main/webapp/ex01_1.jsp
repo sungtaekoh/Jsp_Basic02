@@ -8,8 +8,12 @@
 <title>Insert title here</title>
 </head>
 <body> ex01_1.jsp<br>
+
+<!-- 여러개의 값을 받아 var에 저장한다 없으면 아무것도 출력하지 않는다 -->
  	forEach<br>
  	<c:forEach var="var" items="${ paramValues.check }">
+ 	
+ 	<!--  출럭코드 -->
  	${var }
  	</c:forEach>
  		
